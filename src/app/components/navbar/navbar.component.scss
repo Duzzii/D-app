@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: space-around; /* Distribute space evenly between links */
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #fdf0d5;
+    margin-right: 10px;
+    left: 0;
+    border: solid 1px #669BBC;
+  }
+  
+  .navbar a {
+    color: #669BBC;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+  }
