@@ -1,36 +1,48 @@
-<app-topbar></app-topbar>
-<div class="header">
-    <div class="displayText">
-        <p>Feel free to claim any available meal for today</p>
-    </div>
-    <div class="Tags">
-        <div class="tag">
-            <p>Breakfast</p>
-        </div>
-        <div class="tag">
-            <p>Lunch</p>
-        </div>
-        <div class="tag">
-            <p>Dinner</p>
-        </div>
-        <div class="tag">
-            <p>Snacks</p>
-        </div>
-        <div class="tag">
-            <p>Drinks</p>
-        </div>
-    </div>
-    <div class="body">
-        <div class="card" *ngFor="let item of data">
-            <div class="card-body">
-                <img src="" alt="">
-                <h5 class="card-title">{{item.title}}</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+<body>
+    <div class="body-container">
+        <div class="header">
+            <div class="displayText">
+                <p>Feel free to claim any available meal for today</p>
+            </div>
+            <div class="Tags">
+                <div class="tag">
+                    <p>Breakfast</p>
+                </div>
+                <div class="tag">
+                    <p>Lunch</p>
+                </div>
+                <div class="tag">
+                    <p>Dinner</p>
+                </div>
+                <div class="tag">
+                    <p>Snacks</p>
+                </div>
+                <div class="tag">
+                    <p>Drinks</p>
+                </div>
             </div>
         </div>
 
-    </div>
+        <div class="body">
+            <div class="card">
+                <div class="card-body">
+                    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                    <h5 class="card-title">Sample Meal Title 1</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+            </div>
 
-</div>
-<app-navbar></app-navbar>
+            <div class="card">
+                <div class="card-body">
+                    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                    <h5 class="card-title">Sample Meal Title 2</h5>
+                    <p class="card-text">Another example text to build on the card title and make up the bulk of the card's content.</p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+            </div>
+
+            <!-- More cards can be added dynamically with Angular's *ngFor directive -->
+        </div>
+    </div>
+</body>

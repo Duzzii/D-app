@@ -1,8 +1,21 @@
-.container{
-    background-color: aqua;
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    margin-top: 70px;
-    padding-bottom: 121px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 0 auto;
+}
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
 }

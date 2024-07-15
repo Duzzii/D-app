@@ -1,6 +1,9 @@
 <div class="global">
   <main>
+   
+      <app-topbar *ngIf="!isDesktop"></app-topbar>
       <!-- main content -->
       <router-outlet></router-outlet>
+      <app-navbar *ngIf="!isDesktop"></app-navbar>
   </main>
 </div>

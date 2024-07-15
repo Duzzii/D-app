@@ -9,9 +9,17 @@ import { Router } from '@angular/router';
 export class NavbarComponent {
 
   constructor(private router: Router){}
-onDonate() {
-  // Logic to handle donation button click  
-  this.router.navigate(['donate']);
-}
+  onDonate() {
+    // Logic to handle donation button click  
+    this.router.navigate(['donate']);
+  }
+
+  onHome() {
+   this.router.navigate(['home']);
+  }
+
+  onProfile() {
+    this.router.navigate(['profile']);
+  }
 
 }

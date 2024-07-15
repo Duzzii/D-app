@@ -8,6 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { TopbarComponent } from './components/topbar/topbar.component';
 import { DonateComponent } from './pages/donate/donate.component';
 import { FormsModule } from '@angular/forms';
+import { ProfileComponent } from './pages/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     TopbarComponent,
     DonateComponent,
+    ProfileComponent,
     
   ],
   imports: [
